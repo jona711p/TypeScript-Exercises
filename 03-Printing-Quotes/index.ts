@@ -5,7 +5,7 @@ function printingQuotes() {
   let quote: string = inputQuoteElem.value;
   let quoteOwner: string = inputQuoteOwnerElem.value;
 
-  let completeQuote: string = `${quoteOwner} sagde, "${quote}"`;
+  let completeOutput: string = `${quoteOwner} sagde, "${quote}"`;
 
-  document.getElementById("outputCompleteQuote").innerText = "" + completeQuote;
+  document.getElementById("completeOutput").innerText = "" + completeOutput;
 }
